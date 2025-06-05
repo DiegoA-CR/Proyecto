@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>FORMULARIO DE EVALUACIÓN</title>
+</head>
+<body>
+    <div id="Encabezado" class="Encabezado">
+        <h1> Formulario de evaluación </h1>
+    </div>
+    
+    <section>
+        <p> Nombre de la capacitación o formación</p>
+        <input type="text">
+        <p> fecha de evaluación</p>
+        <input type="date"/>
+
+        <p> numero de instructores : </p>
+        <input type="number">
+        
+        <ol id="ListaInstructores" class="ListaInstructores">
+                <li style="list-style-type: circle;" id="EnInstructor" class="TxDis" > Instructor: <input type="text" id="Instruc" class="Cont" placeholder="Escribe el nombre del instructor"> </li>
+                <li style="list-style-type: circle;" id="EnInstructor" class="TxDis" > Instructor: <input type="text" id="Instruc" class="Cont" placeholder="Escribe el nombre del instructor"> </li>
+                <li style="list-style-type: circle;" id="EnInstructor" class="TxDis" > Instructor: <input type="text" id="Instruc" class="Cont" placeholder="Escribe el nombre del instructor"> </li>
+                <li style="list-style-type: circle;" id="EnInstructor" class="TxDis" > Instructor: <input type="text" id="Instruc" class="Cont" placeholder="Escribe el nombre del instructor"> </li>
+                <li style="list-style-type: circle;" id="EnInstructor" class="TxDis" > Instructor: <input type="text" id="Instruc" class="Cont" placeholder="Escribe el nombre del instructor"> </li>
+        </ol>
+
+        <ul id="IngMatri">
+            <li id="EnMatricula" class="TxDis"> Matricula <input type="text" id="Matricula" class="Cont" placeholder="Matrícula"/> </li>
+            <li id="EnMatricula" class="TxDis"> Matricula <input type="text" id="Matricula" class="Cont" placeholder="Matrícula"/> </li>
+            <li id="EnMatricula" class="TxDis"> Matricula <input type="text" id="Matricula" class="Cont" placeholder="Matrícula"/> </li>
+            <li id="EnMatricula" class="TxDis"> Matricula <input type="text" id="Matricula" class="Cont" placeholder="Matrícula"/> </li>
+            <li id="EnMatricula" class="TxDis"> Matricula <input type="text" id="Matricula" class="Cont" placeholder="Matrícula"/> </li>
+        </ul>
+    </section>
+    <!---------- segunda seccion ---------->
+    <!-- Ejemplo de valoracion  -->
+    <div>
+            <table id="TablaValores" class="TablaValores">
+        <div id="EjemVal" class="EjemVal">
+
+            <label for="text"> Valores </label>
+
+        </div>
+            <tr>
+                <td> Insuficiente </td>
+                <td> 4 </td>
+            </tr>
+            <tr>
+                <td> Suficiente </td>
+                <td> 6 </td>
+            </tr>
+            <tr>
+                <td> Bueno </td>
+                <td> 8 </td>
+            </tr>
+            <tr>
+                <td> Excelente </td>
+                <td> 10 </td>
+            </tr>
+            </table>
+        </div>
+    <div>
+        <div>
+            <section>
+                <label for="text"> Evalua instructor --0-- </label>
+                <label for="text"> utilizando los valores mostrados evalua la informació/desenpeño del accesor</label>
+            </section>
+            <section> <form action="" ></form>
+                <ol>
+                    <li> 
+                        <label for="text"> La informació </label>
+                    </li>
+                </ol>
+            </section>
+        </div>
+    </div>
+    <input type="submit">
+</body>
+</html>
