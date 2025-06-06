@@ -7,27 +7,92 @@
     <title>FORMULARIO DE EVALUACIÓN</title>
 </head>
 <body>
+    <!-- Seccción uno-->
     <div id="Encabezado" class="Encabezado">
         <h1> Formulario de evaluación </h1>
     </div>
-    
-    <section>
-        <p> Nombre de la capacitación o formación</p>
-        <input type="text">
-        <p> fecha de evaluación</p>
-        <input type="date"/>
+    <!--Sección dos-->
+    <div id="DsecDos" class="DsecDos">
+        <form action="post">
+            <div id="">
+            
+                <!--<label for="text"> Nombre de la capacitación o formación </label>-->
+                <input type="text" id="NdCF" class="NdCF" placeholder="Nombre de la capacitación o formación">
+            
+            </div>
+            <div>
+                <!-- -->
+                <label for="text" id="txtFecha" class="txtFecha"> Fecha de evaluación </label>
+                <input type="date" id="Fecha" class="Fecha"/>
+            </div>
+            <div>
+                <p id="NuInstructores" class="NuInstructores"> Numero de instructores <input type="number" id="InNumInst" class="InNumInst" placeholder="-"/> </p>
+                
+            </div>
+    </form>
+    </div>
+    <!--Sección tres-->
+    <div id="DivsecTres" class="DivsecTres">
+        <table>
+            <thead>
+            <th>N° Instructor</th>
+            <th>Nombre</th>
+            <th>Primer Apellido</th>
+            <th>Segundo Apellido</th>
+            <th>Matrícula</th>
+        </thead>
 
-        <p> numero de instructores : </p>
-        <input type="number">
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+        </table>
         
+    </div>
+    <!--
+    <form action="text">
         <ol id="ListaInstructores" class="ListaInstructores">
-                <li style="list-style-type: circle;" id="EnInstructor" class="TxDis" > Instructor: <input type="text" id="Instruc" class="Cont" placeholder="Escribe el nombre del instructor"> </li>
-                <li style="list-style-type: circle;" id="EnInstructor" class="TxDis" > Instructor: <input type="text" id="Instruc" class="Cont" placeholder="Escribe el nombre del instructor"> </li>
-                <li style="list-style-type: circle;" id="EnInstructor" class="TxDis" > Instructor: <input type="text" id="Instruc" class="Cont" placeholder="Escribe el nombre del instructor"> </li>
-                <li style="list-style-type: circle;" id="EnInstructor" class="TxDis" > Instructor: <input type="text" id="Instruc" class="Cont" placeholder="Escribe el nombre del instructor"> </li>
-                <li style="list-style-type: circle;" id="EnInstructor" class="TxDis" > Instructor: <input type="text" id="Instruc" class="Cont" placeholder="Escribe el nombre del instructor"> </li>
+                <li style="list-style-type: none;" id="EnInstructor" class="TxDis" > Instructor: <input type="text" id="Instruc" class="Cont" placeholder="Escribe el nombre del instructor"> </li>
+                <li style="list-style-type: none;" id="EnInstructor" class="TxDis" > Instructor: <input type="text" id="Instruc" class="Cont" placeholder="Escribe el nombre del instructor"> </li>
+                <li style="list-style-type: none;" id="EnInstructor" class="TxDis" > Instructor: <input type="text" id="Instruc" class="Cont" placeholder="Escribe el nombre del instructor"> </li>
+                <li style="list-style-type: none;" id="EnInstructor" class="TxDis" > Instructor: <input type="text" id="Instruc" class="Cont" placeholder="Escribe el nombre del instructor"> </li>
+                <li style="list-style-type: none;" id="EnInstructor" class="TxDis" > Instructor: <input type="text" id="Instruc" class="Cont" placeholder="Escribe el nombre del instructor"> </li>
         </ol>
-
+    </form>
+        
         <ul id="IngMatri">
             <li id="EnMatricula" class="TxDis"> Matricula <input type="text" id="Matricula" class="Cont" placeholder="Matrícula"/> </li>
             <li id="EnMatricula" class="TxDis"> Matricula <input type="text" id="Matricula" class="Cont" placeholder="Matrícula"/> </li>
@@ -36,7 +101,10 @@
             <li id="EnMatricula" class="TxDis"> Matricula <input type="text" id="Matricula" class="Cont" placeholder="Matrícula"/> </li>
         </ul>
     </section>
-    <!---------- segunda seccion ---------->
+
+    -->
+    
+    <!----------seccion cuatro ---------->
     <!-- Ejemplo de valoracion  -->
     <div>
             <table id="TablaValores" class="TablaValores">
@@ -63,21 +131,127 @@
             </tr>
             </table>
         </div>
-    <div>
-        <div>
-            <section>
-                <label for="text"> Evalua instructor --0-- </label>
-                <label for="text"> utilizando los valores mostrados evalua la informació/desenpeño del accesor</label>
-            </section>
-            <section> <form action="" ></form>
-                <ol>
-                    <li> 
-                        <label for="text"> La informació </label>
-                    </li>
-                </ol>
-            </section>
-        </div>
-    </div>
+<!-----------Seccion preguntas----------------->
+<div>
+
+    <p id="InEvaluacion" class="InEvaluacion">
+        Evalua instructor --0-- <br>
+        Utilizando los valores mostrados evalua la informació/desenpeño del accesor <br>
+        Responda las preguntas siguientes <br>
+    </p>
+</div>
+
+<div id="DivSecEvaluacion" class="DivSecEvaluacion">
+    <table id="TabInstructor" class="TabInst">
+        <thead>
+            <th id="N" class="N"> N° </th>
+            <th> Factores a evaluar </th>
+            <th id="Ins" class="Ins"> 1 </th>
+            <th id="Ins" class="Ins"> 2 </th>
+            <th id="Ins" class="Ins"> 3 </th>
+            <th id="Ins" class="Ins"> 4 </th>
+            <th id="Ins" class="Ins"> 5 </th>
+        </thead>
+            
+        <tbody>
+            <tr>
+                <td id="Npregunta" class="Npregunta">1</td>
+                <td>La informació que dio al grupo sobre los objetivos</td>
+                <td id="Ins" class="Ins"> </td>
+                <td id="Ins" class="Ins"> </td>
+                <td id="Ins" class="Ins"> </td>
+                <td id="Ins" class="Ins"> </td>
+                <td id="Ins" class="Ins"> </td>
+            </tr>
+            <tr>
+                <td id="Npregunta" class="Npregunta">2</td>
+                <td>El conocimiento que demostró de los temas fue:</td>
+                <td id="Ins" class="Ins"> </td>
+                <td id="Ins" class="Ins"> </td>
+                <td id="Ins" class="Ins"> </td>
+                <td id="Ins" class="Ins"> </td>
+                <td id="Ins" class="Ins"> </td>
+            </tr>
+            <tr>
+                <td id="Npregunta" class="Npregunta">3</td>
+                <td>La claridad con que expuso fue:</td>
+                <td id="Ins" class="Ins"> </td>
+                <td id="Ins" class="Ins"> </td>
+                <td id="Ins" class="Ins"> </td>
+                <td id="Ins" class="Ins"> </td>
+                <td id="Ins" class="Ins"> </td>
+            </tr>
+            <tr>
+                <td id="Npregunta" class="Npregunta">4</td>
+                <td>Respondió a las dudas y preguntas surgidas durante la impartición del tema, en forma:</td>
+                <td id="Ins" class="Ins"> </td>
+                <td id="Ins" class="Ins"> </td>
+                <td id="Ins" class="Ins"> </td>
+                <td id="Ins" class="Ins"> </td>
+                <td id="Ins" class="Ins"> </td>
+            </tr>
+            <tr>
+                <td id="Npregunta" class="Npregunta">5</td>
+                <td>Propició un clima de colaboración en forma:</td>
+                <td id="Ins" class="Ins"> </td>
+                <td id="Ins" class="Ins"> </td>
+                <td id="Ins" class="Ins"> </td>
+                <td id="Ins" class="Ins"> </td>
+                <td id="Ins" class="Ins"> </td>
+            </tr>
+            <tr>
+                <td id="Npregunta" class="Npregunta">6</td>
+                <td>Aprovecho el material didáctico disponible en forma:</td>
+                <td id="Ins" class="Ins"> </td>
+                <td id="Ins" class="Ins"> </td>
+                <td id="Ins" class="Ins"> </td>
+                <td id="Ins" class="Ins"> </td>
+                <td id="Ins" class="Ins"> </td>
+            </tr>
+            <tr>
+                <td id="Npregunta" class="Npregunta">7</td>
+                <td>Aprovecho el tiempo programado parar su exposición en forma:</td>
+                <td id="Ins" class="Ins"> </td>
+                <td id="Ins" class="Ins"> </td>
+                <td id="Ins" class="Ins"> </td>
+                <td id="Ins" class="Ins"> </td>
+                <td id="Ins" class="Ins"> </td>
+            </tr>
+            <tr>
+                <td id="Npregunta" class="Npregunta">8</td>
+                <td>Mantuvo el interés del grupo en forma:</td>
+                <td id="Ins" class="Ins"> </td>
+                <td id="Ins" class="Ins"> </td>
+                <td id="Ins" class="Ins"> </td>
+                <td id="Ins" class="Ins"> </td>
+                <td id="Ins" class="Ins"> </td>
+            </tr>
+            <tr>
+                <td id="Npregunta" class="Npregunta">9</td>
+                <td>Las actividades realizadas, facilitaron el aprendizaje en forma:</td>
+                <td id="Ins" class="Ins"> </td>
+                <td id="Ins" class="Ins"> </td>
+                <td id="Ins" class="Ins"> </td>
+                <td id="Ins" class="Ins"> </td>
+                <td id="Ins" class="Ins"> </td>
+            </tr>
+            <tr>
+                <td id="Npregunta" class="Npregunta">10</td>
+                <td>Su labor de supervisión al trabajo de equipo fue:</td>
+                <td id="Ins" class="Ins"> </td>
+                <td id="Ins" class="Ins"> </td>
+                <td id="Ins" class="Ins"> </td>
+                <td id="Ins" class="Ins"> </td>
+                <td id="Ins" class="Ins"> </td>
+            </tr>
+        </tbody>
+
+
+        <tfoot>
+        </tfoot>
+    </table>
+</div>
+
     <input type="submit">
 </body>
 </html>

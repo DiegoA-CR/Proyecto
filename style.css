@@ -1,13 +1,17 @@
+/*---------------------------- - - - - - - Seccion uno - - - - - - --------------------------------*/
 body{
-    background-color: whitesmoke;
+    background-color: #ececec;
 }
 
 .Encabezado{
     text-align: center;
     margin: 50px,50px,50px,50px;
-    background-color: radial;
-    color: white;
-    border: 2px solid black;
+    background-image: linear-gradient(white,#ececec);
+    /*background-color: white;*/
+    color: green;
+    border: 3px solid #ececec;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .head{
     
@@ -16,6 +20,48 @@ body{
     margin: center;
     color: white; 
 }
+/*---------------------------- - - - - - - Seccion dos - - - - - - --------------------------------*/
+
+div{
+
+    margin-left: 5px;
+    border: 1px solid black;
+}
+
+.NdCF{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 550px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.txtFecha{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+
+.Fecha{
+    width: 100px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+}
+.NuInstructores{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+
+}
+.InNumInst{
+    width: 20px;
+    height: 20px;
+}
+/*---------------------------- - - - - - - Seccion 3 - - - - - - --------------------------------*/
+
 .TxDis{
     font-family: Arial;
     font-size: 18px;
@@ -36,4 +82,54 @@ body{
 }
 .TablaValores{
     border: 1px solid black;
+}
+/*---------------------------- - - - - - - Seccion 4 - - - - - - --------------------------------*/
+/*---------------------------------------Tabla de evaluacion intructores-----------------------------------------*/
+
+
+.TabInst{
+
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+
+th{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    height: 25px;
+    background-color: rgb(124, 124, 124);
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+td{
+    height: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: white;
+    
+}
+.N{
+    border: 2px solid black;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+}
+.Npregunta{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: rgb(184, 184, 184);
+}
+.Ins{
+    width: 40px;
+    height: 30px;
+}
+
+.Ins:hover{
+    background-color: rgb(202, 245, 209);
+}
+
+.DivSecEvaluacion{
 }
