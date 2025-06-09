@@ -32,47 +32,48 @@
     </form>
     </div>
     <!--Sección tres-->
+
     <div id="DivsecTres" class="DivsecTres">
         <table>
             <thead>
-            <th>N° Instructor</th>
-            <th>Nombre</th>
-            <th>Primer Apellido</th>
-            <th>Segundo Apellido</th>
-            <th>Matrícula</th>
+            <th id="NumRegInstructors" class="NumRegInstructors">N°</th>
+            <th id="RegInstructores" class="RegInstructores">Nombre Instructor/a </th>
+            <th id="RegInstructores" class="RegInstructores">Primer Apellido</th>
+            <th id="RegInstructores" class="RegInstructores">Segundo Apellido</th>
+            <th id="RegInstructores" class="RegInstructores">Matrícula</th>
         </thead>
 
         <tbody>
             <tr>
-                <td>1</td>
+                <td id="AsigNumIns" class="AsigNumIns">1</td>
                 <td></td>
                 <td></td>
                 <td></td>
                 <td></td>
             </tr>
             <tr>
-                <td>2</td>
+                <td id="AsigNumIns" class="AsigNumIns">2</td>
                 <td></td>
                 <td></td>
                 <td></td>
                 <td></td>
             </tr>
             <tr>
-                <td>3</td>
+                <td id="AsigNumIns" class="AsigNumIns">3</td>
                 <td></td>
                 <td></td>
                 <td></td>
                 <td></td>
             </tr>
             <tr>
-                <td>4</td>
+                <td id="AsigNumIns" class="AsigNumIns">4</td>
                 <td></td>
                 <td></td>
                 <td></td>
                 <td></td>
             </tr>
             <tr>
-                <td>5</td>
+                <td id="AsigNumIns" class="AsigNumIns">5</td>
                 <td></td>
                 <td></td>
                 <td></td>
@@ -82,62 +83,39 @@
         </table>
         
     </div>
-    <!--
-    <form action="text">
-        <ol id="ListaInstructores" class="ListaInstructores">
-                <li style="list-style-type: none;" id="EnInstructor" class="TxDis" > Instructor: <input type="text" id="Instruc" class="Cont" placeholder="Escribe el nombre del instructor"> </li>
-                <li style="list-style-type: none;" id="EnInstructor" class="TxDis" > Instructor: <input type="text" id="Instruc" class="Cont" placeholder="Escribe el nombre del instructor"> </li>
-                <li style="list-style-type: none;" id="EnInstructor" class="TxDis" > Instructor: <input type="text" id="Instruc" class="Cont" placeholder="Escribe el nombre del instructor"> </li>
-                <li style="list-style-type: none;" id="EnInstructor" class="TxDis" > Instructor: <input type="text" id="Instruc" class="Cont" placeholder="Escribe el nombre del instructor"> </li>
-                <li style="list-style-type: none;" id="EnInstructor" class="TxDis" > Instructor: <input type="text" id="Instruc" class="Cont" placeholder="Escribe el nombre del instructor"> </li>
-        </ol>
-    </form>
-        
-        <ul id="IngMatri">
-            <li id="EnMatricula" class="TxDis"> Matricula <input type="text" id="Matricula" class="Cont" placeholder="Matrícula"/> </li>
-            <li id="EnMatricula" class="TxDis"> Matricula <input type="text" id="Matricula" class="Cont" placeholder="Matrícula"/> </li>
-            <li id="EnMatricula" class="TxDis"> Matricula <input type="text" id="Matricula" class="Cont" placeholder="Matrícula"/> </li>
-            <li id="EnMatricula" class="TxDis"> Matricula <input type="text" id="Matricula" class="Cont" placeholder="Matrícula"/> </li>
-            <li id="EnMatricula" class="TxDis"> Matricula <input type="text" id="Matricula" class="Cont" placeholder="Matrícula"/> </li>
-        </ul>
-    </section>
-
-    -->
     
     <!----------seccion cuatro ---------->
     <!-- Ejemplo de valoracion  -->
-    <div>
-            <table id="TablaValores" class="TablaValores">
-        <div id="EjemVal" class="EjemVal">
-
-            <label for="text"> Valores </label>
+    <div id="ContenedorEjemVal" class="ContenedorEjemVal">
+            
+        <div id="EjVal" class="EjVal">
+            <p id="ejVal" class="ejVal"> Valores </p>
 
         </div>
-            <tr>
-                <td> Insuficiente </td>
-                <td> 4 </td>
-            </tr>
-            <tr>
-                <td> Suficiente </td>
-                <td> 6 </td>
-            </tr>
-            <tr>
-                <td> Bueno </td>
-                <td> 8 </td>
-            </tr>
-            <tr>
-                <td> Excelente </td>
-                <td> 10 </td>
-            </tr>
+
+        <table id="TablaValores" class="TablaValores">
+            <thead>
+                <th id="EjAsocVal" class="EjAsocVal">Insuficiente</th>
+                <th id="EjAsocVal" class="EjAsocVal">Suficiente</th>
+                <th id="EjAsocVal" class="EjAsocVal">Bueno </th>
+                <th id="EjAsocVal" class="EjAsocVal">Excelente</th>
+            </thead>
+            <tbody>
+                <td id="EjAsocVal" class="EjAsocVal"> 4 </td>
+                <td id="EjAsocVal" class="EjAsocVal"> 6 </td>
+                <td id="EjAsocVal" class="EjAsocVal"> 8 </td>
+                <td id="EjAsocVal" class="EjAsocVal"> 10 </td>
+            </tbody>
             </table>
+
+
         </div>
 <!-----------Seccion preguntas----------------->
-<div>
+<div id="RecInf" class="RecInf">
 
-    <p id="InEvaluacion" class="InEvaluacion">
-        Evalua instructor --0-- <br>
-        Utilizando los valores mostrados evalua la informació/desenpeño del accesor <br>
-        Responda las preguntas siguientes <br>
+    <p id="InfEvaluacion" class="InfEvaluacion">
+        Instrucciones: Asigna un valor conforme a la tabla de valorres indicando, anotando el que considere adecuado por cada factor de valoració en la columna que corresponda. <br>
+        Responda las preguntas siguientes: <br>
     </p>
 </div>
 

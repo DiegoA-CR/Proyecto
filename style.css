@@ -3,6 +3,12 @@ body{
     background-color: #ececec;
 }
 
+div{
+    margin-top: 4px;
+    margin-bottom: 4px;
+   border: 1px solid black;
+}
+
 .Encabezado{
     text-align: center;
     margin: 50px,50px,50px,50px;
@@ -21,12 +27,6 @@ body{
     color: white; 
 }
 /*---------------------------- - - - - - - Seccion dos - - - - - - --------------------------------*/
-
-div{
-
-    margin-left: 5px;
-    border: 1px solid black;
-}
 
 .NdCF{
     font-size: 14px;
@@ -57,35 +57,70 @@ div{
 
 }
 .InNumInst{
-    width: 20px;
+    text-align: center;
+    width: 30px;
     height: 20px;
 }
+
 /*---------------------------- - - - - - - Seccion 3 - - - - - - --------------------------------*/
 
-.TxDis{
-    font-family: Arial;
-    font-size: 18px;
+.NumRegInstructors{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    width: 30px;
+    height: 30px;
 }
-.Cont{
-    margin: 5px;
-    border: 1px;
-    width: 300px;
+.AsigNumIns{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.RegInstructores{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    width: 500px;
     height: 20px;
+
+}
+
+/*---------------------------- - - - - - - Seccion 4 - - - - - - --------------------------------*/
+.ContenedorEjemVal{
+    display: flex;
+    width: 400px;
+    height: 75px;
+    margin: auto;
+}
+.EjVal{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    width: 100px;
+    height: 65px;
+    background-color: gray;
     border-radius: 5px;
 }
-.EjemVal{
+.ejVal{
+    text-align: center;
+}
+.EjAsocVal{
 
-    width: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    width: 80px;
     height: 30px;
-    background-color: grey;
-    border: 2px solid black;
 }
-.TablaValores{
-    border: 1px solid black;
-}
-/*---------------------------- - - - - - - Seccion 4 - - - - - - --------------------------------*/
-/*---------------------------------------Tabla de evaluacion intructores-----------------------------------------*/
+/*---------------------------------------Recuadro informativo----------------------------------------------------*/
+.RecInf{
+    width: 100%;
+    height: 70px;
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
 
+}
+.InfEvaluacion{
+    text-align: center;
+}
+/*---------------------------------------Tabla de evaluacion intructores-----------------------------------------*/
 
 .TabInst{
 
@@ -102,7 +137,6 @@ th{
     border: 1px solid black;
     border-radius: 2px;
 }
-
 td{
     height: 25px;
     font-family: Arial, Helvetica, sans-serif;
@@ -113,8 +147,8 @@ td{
 .N{
     border: 2px solid black;
     text-align: center;
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
 }
 .Npregunta{
     text-align: center;
