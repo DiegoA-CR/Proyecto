@@ -1,21 +1,30 @@
 /*---------------------------- - - - - - - Seccion uno - - - - - - --------------------------------*/
 body{
-    background-color: #ececec;
+    background-color: white;
 }
 
 div{
-    margin-top: 4px;
+    margin: 4px;
     margin-bottom: 4px;
-   border: 1px solid black;
+    /*border: 1px solid black;*/
 }
+
+.Conteiner{
+    margin: 70px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 25px;
+    border-radius: 5px;
+    background-color: #e6e6e6;
+    
+}
+
 
 .Encabezado{
     text-align: center;
     margin: 50px,50px,50px,50px;
-    background-image: linear-gradient(white,#ececec);
     /*background-color: white;*/
-    color: green;
-    border: 3px solid #ececec;
+    color: black;
     border-radius: 10px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -31,12 +40,14 @@ div{
 .NdCF{
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
-    width: 550px;
-    height: 40px;
+    width: 50%;
+    height: 50px;
     border: 1px solid black;
     border-radius: 10px;
     background-color: white;
 }
+
+
 
 .txtFecha{
     font-family: Arial, Helvetica, sans-serif;
@@ -95,14 +106,15 @@ div{
     font-size: 18px;
     width: 100px;
     height: 65px;
-    background-color: gray;
+    background-color: rgb(165, 165, 165);
     border-radius: 5px;
 }
 .ejVal{
     text-align: center;
+    margin-top: 25px;
 }
 .EjAsocVal{
-
+    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     width: 80px;
@@ -110,20 +122,21 @@ div{
 }
 /*---------------------------------------Recuadro informativo----------------------------------------------------*/
 .RecInf{
-    width: 100%;
+    margin: 15px;
+    width: 97%;
     height: 70px;
     background-color: whitesmoke;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
-
+    border-radius: 10px;
 }
 .InfEvaluacion{
     text-align: center;
+    
 }
 /*---------------------------------------Tabla de evaluacion intructores-----------------------------------------*/
 
 .TabInst{
-
     border: 2px solid black;
     border-radius: 5px;
 }
@@ -135,13 +148,14 @@ th{
     height: 25px;
     background-color: rgb(124, 124, 124);
     border: 1px solid black;
-    border-radius: 2px;
+    border-radius: 4px;
 }
 td{
     height: 25px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     background-color: white;
+    border-radius: 5px;
     
 }
 .N{
@@ -153,7 +167,7 @@ td{
 .Npregunta{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     background-color: rgb(184, 184, 184);
 }
 .Ins{
@@ -165,5 +179,49 @@ td{
     background-color: rgb(202, 245, 209);
 }
 
-.DivSecEvaluacion{
+/*----------------------------Seccion valoracion Capacitacion o formacion----------------------------------*/
+
+#encabezadoSegundaTabla{
+    margin-left: 1px;
+    margin-bottom: 1px;
+    width: 63%;
+    height: 50px;
+    background-color: rgb(107, 106, 106);
+    border-radius: 5px;
+}
+
+#encabezadoSegT{
+    margin-top: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+/*---------------------------- - - - - - - Seccion Comentarios - - - - - - --------------------------------*/
+
+#inComentario{
+    width: 99%;
+    height: 70px;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+#botonEnviar{
+    margin-left: 65px;
+    width: 100px;
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid black;
 }

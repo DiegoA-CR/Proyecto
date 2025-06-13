@@ -11,225 +11,323 @@
     <div id="Encabezado" class="Encabezado">
         <h1> Formulario de evaluación </h1>
     </div>
-    <!--Sección dos-->
-    <div id="DsecDos" class="DsecDos">
-        <form action="post">
-            <div id="">
-            
-                <!--<label for="text"> Nombre de la capacitación o formación </label>-->
-                <input type="text" id="NdCF" class="NdCF" placeholder="Nombre de la capacitación o formación">
-            
+    <div id="Conteiner" class="Conteiner">
+            <!--Sección dos-->
+            <div id="DsecDos" class="DsecDos">
+                <form action="post">
+                    <div id="">
+                    
+                        <input type="text" id="NdCF" class="NdCF" placeholder="Nombre de la capacitación o formación">
+                    
+                    </div>
+                    <div id="ContFecha" class="ContFecha">
+
+                        <p id="txtFecha" class="txtFecha"> Fecha de evaluación </p>
+                        <input type="date" id="Fecha" class="Fecha"/>
+                    
+                    </div>
+                    <div id="InstContNum" class="InstContNum">
+                        <p id="NuInstructores" class="NuInstructores"> Numero de instructores <input type="number" id="InNumInst" class="InNumInst" placeholder="-"/> </p>
+                        
+                    </div>
+            </form>
             </div>
-            <div>
-                <!-- -->
-                <label for="text" id="txtFecha" class="txtFecha"> Fecha de evaluación </label>
-                <input type="date" id="Fecha" class="Fecha"/>
-            </div>
-            <div>
-                <p id="NuInstructores" class="NuInstructores"> Numero de instructores <input type="number" id="InNumInst" class="InNumInst" placeholder="-"/> </p>
+            <!--Sección tres-->
+
+            <div id="DivsecTres" class="DivsecTres">
+                <table>
+                    <thead>
+                    <th id="NumRegInstructors" class="NumRegInstructors">N°</th>
+                    <th id="RegInstructores" class="RegInstructores">Nombre Instructor/a </th>
+                    <th id="RegInstructores" class="RegInstructores">Primer Apellido</th>
+                    <th id="RegInstructores" class="RegInstructores">Segundo Apellido</th>
+                    <th id="RegInstructores" class="RegInstructores">Matrícula</th>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td id="AsigNumIns" class="AsigNumIns">1</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td id="AsigNumIns" class="AsigNumIns">2</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td id="AsigNumIns" class="AsigNumIns">3</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td id="AsigNumIns" class="AsigNumIns">4</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td id="AsigNumIns" class="AsigNumIns">5</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+                </table>
                 
             </div>
-    </form>
-    </div>
-    <!--Sección tres-->
+            
+            <!----------seccion cuatro ---------->
+            
+        <!-----------Seccion preguntas----------------->
+        <div id="RecInf" class="RecInf">
 
-    <div id="DivsecTres" class="DivsecTres">
-        <table>
-            <thead>
-            <th id="NumRegInstructors" class="NumRegInstructors">N°</th>
-            <th id="RegInstructores" class="RegInstructores">Nombre Instructor/a </th>
-            <th id="RegInstructores" class="RegInstructores">Primer Apellido</th>
-            <th id="RegInstructores" class="RegInstructores">Segundo Apellido</th>
-            <th id="RegInstructores" class="RegInstructores">Matrícula</th>
-        </thead>
+            <p id="InfEvaluacion" class="InfEvaluacion">
+                Instrucciones: Asigna un valor conforme a la tabla de valorres indicando, anotando el que considere adecuado por cada factor de valoració en la columna que corresponda. <br>
+                Responda las preguntas siguientes: <br>
+            </p>
+        </div>
+        <!-- Ejemplo de valoracion  -->
+            <div id="ContenedorEjemVal" class="ContenedorEjemVal">
+                    
+                <div id="EjVal" class="EjVal">
+                    <p id="ejVal" class="ejVal"> Valores </p>
 
-        <tbody>
-            <tr>
-                <td id="AsigNumIns" class="AsigNumIns">1</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td id="AsigNumIns" class="AsigNumIns">2</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td id="AsigNumIns" class="AsigNumIns">3</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td id="AsigNumIns" class="AsigNumIns">4</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td id="AsigNumIns" class="AsigNumIns">5</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-        </tbody>
-        </table>
+                </div>
+
+                <table id="TablaValores" class="TablaValores">
+                    <thead>
+                        <th id="EjAsocVal" class="EjAsocVal">Insuficiente</th>
+                        <th id="EjAsocVal" class="EjAsocVal">Suficiente</th>
+                        <th id="EjAsocVal" class="EjAsocVal">Bueno </th>
+                        <th id="EjAsocVal" class="EjAsocVal">Excelente</th>
+                    </thead>
+                    <tbody>
+                        <td id="EjAsocVal" class="EjAsocVal"> 4 </td>
+                        <td id="EjAsocVal" class="EjAsocVal"> 6 </td>
+                        <td id="EjAsocVal" class="EjAsocVal"> 8 </td>
+                        <td id="EjAsocVal" class="EjAsocVal"> 10 </td>
+                    </tbody>
+                    </table>
+
+
+                </div>
+            
+        <div id="DivSecEvaluacion" class="DivSecEvaluacion">
+            <table id="TabInstructor" class="TabInst">
+                <thead>
+                    <th id="N" class="N"> N° </th>
+                    <th> Factores a evaluar </th>
+                    <th id="Ins" class="Ins"> 1 </th>
+                    <th id="Ins" class="Ins"> 2 </th>
+                    <th id="Ins" class="Ins"> 3 </th>
+                    <th id="Ins" class="Ins"> 4 </th>
+                    <th id="Ins" class="Ins"> 5 </th>
+                </thead>
+                    
+                <tbody>
+                    <tr>
+                        <td id="Npregunta" class="Npregunta">1</td>
+                        <td>La informació que dio al grupo sobre los objetivos</td>
+                        <td id="Ins" class="Ins"> </td>
+                        <td id="Ins" class="Ins"> </td>
+                        <td id="Ins" class="Ins"> </td>
+                        <td id="Ins" class="Ins"> </td>
+                        <td id="Ins" class="Ins"> </td>
+                    </tr>
+                    <tr>
+                        <td id="Npregunta" class="Npregunta">2</td>
+                        <td>El conocimiento que demostró de los temas fue:</td>
+                        <td id="Ins" class="Ins"> </td>
+                        <td id="Ins" class="Ins"> </td>
+                        <td id="Ins" class="Ins"> </td>
+                        <td id="Ins" class="Ins"> </td>
+                        <td id="Ins" class="Ins"> </td>
+                    </tr>
+                    <tr>
+                        <td id="Npregunta" class="Npregunta">3</td>
+                        <td>La claridad con que expuso fue:</td>
+                        <td id="Ins" class="Ins"> </td>
+                        <td id="Ins" class="Ins"> </td>
+                        <td id="Ins" class="Ins"> </td>
+                        <td id="Ins" class="Ins"> </td>
+                        <td id="Ins" class="Ins"> </td>
+                    </tr>
+                    <tr>
+                        <td id="Npregunta" class="Npregunta">4</td>
+                        <td>Respondió a las dudas y preguntas surgidas durante la impartición del tema, en forma:</td>
+                        <td id="Ins" class="Ins"> </td>
+                        <td id="Ins" class="Ins"> </td>
+                        <td id="Ins" class="Ins"> </td>
+                        <td id="Ins" class="Ins"> </td>
+                        <td id="Ins" class="Ins"> </td>
+                    </tr>
+                    <tr>
+                        <td id="Npregunta" class="Npregunta">5</td>
+                        <td>Propició un clima de colaboración en forma:</td>
+                        <td id="Ins" class="Ins"> </td>
+                        <td id="Ins" class="Ins"> </td>
+                        <td id="Ins" class="Ins"> </td>
+                        <td id="Ins" class="Ins"> </td>
+                        <td id="Ins" class="Ins"> </td>
+                    </tr>
+                    <tr>
+                        <td id="Npregunta" class="Npregunta">6</td>
+                        <td>Aprovecho el material didáctico disponible en forma:</td>
+                        <td id="Ins" class="Ins"> </td>
+                        <td id="Ins" class="Ins"> </td>
+                        <td id="Ins" class="Ins"> </td>
+                        <td id="Ins" class="Ins"> </td>
+                        <td id="Ins" class="Ins"> </td>
+                    </tr>
+                    <tr>
+                        <td id="Npregunta" class="Npregunta">7</td>
+                        <td>Aprovecho el tiempo programado parar su exposición en forma:</td>
+                        <td id="Ins" class="Ins"> </td>
+                        <td id="Ins" class="Ins"> </td>
+                        <td id="Ins" class="Ins"> </td>
+                        <td id="Ins" class="Ins"> </td>
+                        <td id="Ins" class="Ins"> </td>
+                    </tr>
+                    <tr>
+                        <td id="Npregunta" class="Npregunta">8</td>
+                        <td>Mantuvo el interés del grupo en forma:</td>
+                        <td id="Ins" class="Ins"> </td>
+                        <td id="Ins" class="Ins"> </td>
+                        <td id="Ins" class="Ins"> </td>
+                        <td id="Ins" class="Ins"> </td>
+                        <td id="Ins" class="Ins"> </td>
+                    </tr>
+                    <tr>
+                        <td id="Npregunta" class="Npregunta">9</td>
+                        <td>Las actividades realizadas, facilitaron el aprendizaje en forma:</td>
+                        <td id="Ins" class="Ins"> </td>
+                        <td id="Ins" class="Ins"> </td>
+                        <td id="Ins" class="Ins"> </td>
+                        <td id="Ins" class="Ins"> </td>
+                        <td id="Ins" class="Ins"> </td>
+                    </tr>
+                    <tr>
+                        <td id="Npregunta" class="Npregunta">10</td>
+                        <td>Su labor de supervisión al trabajo de equipo fue:</td>
+                        <td id="Ins" class="Ins"> </td>
+                        <td id="Ins" class="Ins"> </td>
+                        <td id="Ins" class="Ins"> </td>
+                        <td id="Ins" class="Ins"> </td>
+                        <td id="Ins" class="Ins"> </td>
+                    </tr>
+                </tbody>
+
+
+                <tfoot>
+                </tfoot>
+            </table>
+        </div>
+<!-- Segunda tabla -->
+
+            <div id="segundaEvaluacion" class="segundaEvaluacion">
+                <div id="encabezadoSegundaTabla" class="encabezadoSegundaTabla">
+                    <p id="encabezadoSegT" class="encabezadoSegT"> Capacitación o formación</p>
+                </div>
+                <table id="evalCapacitacionFormacion" class="evalCapacitacionFormacion">
+                <thead>
+                    <th id="N" class="N"> N° </th>
+                    <th> Factores a evaluar </th>
+                    <th id="" class=""> Valoracion </th>
+                    
+                </thead>
+                    
+                <tbody>
+                    <tr>
+                        <td id="Npregunta" class="Npregunta">1</td>
+                        <td>Sus expectativas respecto al curso, se vieron satisfechas en forma:</td>
+                        <td id="" class=""> </td>
+                        
+                    </tr>
+                    <tr>
+                        <td id="Npregunta" class="Npregunta">2</td>
+                        <td>La capacitación tiene aplicación en su puesto, en forma: </td>
+                        <td id="" class=""> </td>
+                        
+                    </tr>
+                    <tr>
+                        <td id="Npregunta" class="Npregunta">3</td>
+                        <td>El material didáctico apoyó el aprendizaje en forma: </td>
+                        <td id="Ins" class="Ins"> </td>
+                        
+                    </tr>
+                    <tr>
+                        <td id="Npregunta" class="Npregunta">4</td>
+                        <td>Las actividades programadas se llevaron a cabo en forma: </td>
+                        <td id="Ins" class="Ins"> </td>
+                        
+                    </tr>
+                    <tr>
+                        <td id="Npregunta" class="Npregunta">5</td>
+                        <td> La calida de la coordinación del curso fue: </td>
+                        <td id="" class=""> </td>
+                        
+                    </tr>
+                    <tr>
+                        <td id="Npregunta" class="Npregunta">6</td>
+                        <td>Los ejercicios y dinamicas grupales se relacionaron con la capacitación en forma: </td>
+                        <td id="Ins" class="Ins"> </td>
+                        
+                    </tr>
+                    <tr>
+                        <td id="Npregunta" class="Npregunta">7</td>
+                        <td>El aula fue adecuada y cómoda en forma: </td>
+                        <td id="Ins" class="Ins"> </td>
+                        
+                    </tr>
+                    <tr>
+                        <td id="Npregunta" class="Npregunta">8</td>
+                        <td>Los tramites y entrega de constancias fueron: </td>
+                        <td id="Ins" class="Ins"> </td>
+                        
+                    </tr>
+                    <tr>
+                        <td id="Npregunta" class="Npregunta">9</td>
+                        <td>La iluminacion, ventilación y sonido fueron: </td>
+                        <td id="" class=""> </td>
+                      
+                    </tr>
+                    <tr>
+                        <td id="Npregunta" class="Npregunta">10</td>
+                        <td>Considera que los servicios adicionales fueron: </td>
+                        <td id="" class=""> </td>
+                    </tr>
+                </tbody>
+
+
+                <tfoot>
+                </tfoot>
+                </table>
+
+            </div>
         
+   <!--comentarios-->
+   <div id="contenedorComentario" class="contenedorCometario">
+        <input type="text" id="inComentario" class="inComentario" placeholder="Comentarios o sujerencias: ">
+   </div>
+   
+
+
+
+   
+   
+   
     </div>
     
-    <!----------seccion cuatro ---------->
-    <!-- Ejemplo de valoracion  -->
-    <div id="ContenedorEjemVal" class="ContenedorEjemVal">
-            
-        <div id="EjVal" class="EjVal">
-            <p id="ejVal" class="ejVal"> Valores </p>
-
-        </div>
-
-        <table id="TablaValores" class="TablaValores">
-            <thead>
-                <th id="EjAsocVal" class="EjAsocVal">Insuficiente</th>
-                <th id="EjAsocVal" class="EjAsocVal">Suficiente</th>
-                <th id="EjAsocVal" class="EjAsocVal">Bueno </th>
-                <th id="EjAsocVal" class="EjAsocVal">Excelente</th>
-            </thead>
-            <tbody>
-                <td id="EjAsocVal" class="EjAsocVal"> 4 </td>
-                <td id="EjAsocVal" class="EjAsocVal"> 6 </td>
-                <td id="EjAsocVal" class="EjAsocVal"> 8 </td>
-                <td id="EjAsocVal" class="EjAsocVal"> 10 </td>
-            </tbody>
-            </table>
-
-
-        </div>
-<!-----------Seccion preguntas----------------->
-<div id="RecInf" class="RecInf">
-
-    <p id="InfEvaluacion" class="InfEvaluacion">
-        Instrucciones: Asigna un valor conforme a la tabla de valorres indicando, anotando el que considere adecuado por cada factor de valoració en la columna que corresponda. <br>
-        Responda las preguntas siguientes: <br>
-    </p>
-</div>
-
-<div id="DivSecEvaluacion" class="DivSecEvaluacion">
-    <table id="TabInstructor" class="TabInst">
-        <thead>
-            <th id="N" class="N"> N° </th>
-            <th> Factores a evaluar </th>
-            <th id="Ins" class="Ins"> 1 </th>
-            <th id="Ins" class="Ins"> 2 </th>
-            <th id="Ins" class="Ins"> 3 </th>
-            <th id="Ins" class="Ins"> 4 </th>
-            <th id="Ins" class="Ins"> 5 </th>
-        </thead>
-            
-        <tbody>
-            <tr>
-                <td id="Npregunta" class="Npregunta">1</td>
-                <td>La informació que dio al grupo sobre los objetivos</td>
-                <td id="Ins" class="Ins"> </td>
-                <td id="Ins" class="Ins"> </td>
-                <td id="Ins" class="Ins"> </td>
-                <td id="Ins" class="Ins"> </td>
-                <td id="Ins" class="Ins"> </td>
-            </tr>
-            <tr>
-                <td id="Npregunta" class="Npregunta">2</td>
-                <td>El conocimiento que demostró de los temas fue:</td>
-                <td id="Ins" class="Ins"> </td>
-                <td id="Ins" class="Ins"> </td>
-                <td id="Ins" class="Ins"> </td>
-                <td id="Ins" class="Ins"> </td>
-                <td id="Ins" class="Ins"> </td>
-            </tr>
-            <tr>
-                <td id="Npregunta" class="Npregunta">3</td>
-                <td>La claridad con que expuso fue:</td>
-                <td id="Ins" class="Ins"> </td>
-                <td id="Ins" class="Ins"> </td>
-                <td id="Ins" class="Ins"> </td>
-                <td id="Ins" class="Ins"> </td>
-                <td id="Ins" class="Ins"> </td>
-            </tr>
-            <tr>
-                <td id="Npregunta" class="Npregunta">4</td>
-                <td>Respondió a las dudas y preguntas surgidas durante la impartición del tema, en forma:</td>
-                <td id="Ins" class="Ins"> </td>
-                <td id="Ins" class="Ins"> </td>
-                <td id="Ins" class="Ins"> </td>
-                <td id="Ins" class="Ins"> </td>
-                <td id="Ins" class="Ins"> </td>
-            </tr>
-            <tr>
-                <td id="Npregunta" class="Npregunta">5</td>
-                <td>Propició un clima de colaboración en forma:</td>
-                <td id="Ins" class="Ins"> </td>
-                <td id="Ins" class="Ins"> </td>
-                <td id="Ins" class="Ins"> </td>
-                <td id="Ins" class="Ins"> </td>
-                <td id="Ins" class="Ins"> </td>
-            </tr>
-            <tr>
-                <td id="Npregunta" class="Npregunta">6</td>
-                <td>Aprovecho el material didáctico disponible en forma:</td>
-                <td id="Ins" class="Ins"> </td>
-                <td id="Ins" class="Ins"> </td>
-                <td id="Ins" class="Ins"> </td>
-                <td id="Ins" class="Ins"> </td>
-                <td id="Ins" class="Ins"> </td>
-            </tr>
-            <tr>
-                <td id="Npregunta" class="Npregunta">7</td>
-                <td>Aprovecho el tiempo programado parar su exposición en forma:</td>
-                <td id="Ins" class="Ins"> </td>
-                <td id="Ins" class="Ins"> </td>
-                <td id="Ins" class="Ins"> </td>
-                <td id="Ins" class="Ins"> </td>
-                <td id="Ins" class="Ins"> </td>
-            </tr>
-            <tr>
-                <td id="Npregunta" class="Npregunta">8</td>
-                <td>Mantuvo el interés del grupo en forma:</td>
-                <td id="Ins" class="Ins"> </td>
-                <td id="Ins" class="Ins"> </td>
-                <td id="Ins" class="Ins"> </td>
-                <td id="Ins" class="Ins"> </td>
-                <td id="Ins" class="Ins"> </td>
-            </tr>
-            <tr>
-                <td id="Npregunta" class="Npregunta">9</td>
-                <td>Las actividades realizadas, facilitaron el aprendizaje en forma:</td>
-                <td id="Ins" class="Ins"> </td>
-                <td id="Ins" class="Ins"> </td>
-                <td id="Ins" class="Ins"> </td>
-                <td id="Ins" class="Ins"> </td>
-                <td id="Ins" class="Ins"> </td>
-            </tr>
-            <tr>
-                <td id="Npregunta" class="Npregunta">10</td>
-                <td>Su labor de supervisión al trabajo de equipo fue:</td>
-                <td id="Ins" class="Ins"> </td>
-                <td id="Ins" class="Ins"> </td>
-                <td id="Ins" class="Ins"> </td>
-                <td id="Ins" class="Ins"> </td>
-                <td id="Ins" class="Ins"> </td>
-            </tr>
-        </tbody>
-
-
-        <tfoot>
-        </tfoot>
-    </table>
-</div>
-
-    <input type="submit">
+    
+    <input type="submit" id="botonEnviar" class="botonEnviar">
 </body>
 </html>
