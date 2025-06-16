@@ -40,16 +40,23 @@ div{
 .NdCF{
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
-    width: 50%;
-    height: 50px;
-    border: 1px solid black;
+    width: 60%;
+    height: 70px;
+    border: 1px solid white;
     border-radius: 10px;
     background-color: white;
 }
 
 
-
+#ContFecha{
+    background-color: white;
+    width: 10%;
+    height: 100px;
+    flex: auto;
+    border-radius: 5px;
+}
 .txtFecha{
+
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
 }
@@ -137,7 +144,7 @@ div{
 /*---------------------------------------Tabla de evaluacion intructores-----------------------------------------*/
 
 .TabInst{
-    border: 2px solid black;
+
     border-radius: 5px;
 }
 
@@ -147,7 +154,7 @@ th{
     font-size: 18px;
     height: 25px;
     background-color: rgb(124, 124, 124);
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     border-radius: 4px;
 }
 td{
@@ -171,7 +178,7 @@ td{
     background-color: rgb(184, 184, 184);
 }
 .Ins{
-    width: 40px;
+    width: 80px;
     height: 30px;
 }
 
